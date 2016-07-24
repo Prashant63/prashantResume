@@ -1,0 +1,384 @@
+body{
+	margin:0;
+}
+
+.heading{
+	width:100%;
+	height:4px;
+	background-color: rgb(20, 59, 117);
+	/*background-color: #000000;*/
+	text-align: right;
+}
+
+.heading span{
+	margin-right:100px;
+	background-color: rgb(20, 59, 117);
+	/*background-color: #000000;*/
+	color:#FFFFFF;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding:6px 36px;
+}
+
+aside{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 100px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background-color: rgb(20, 59, 117);
+    /*background-color: #000000;*/
+    color:#ffffff;
+    text-align: center;
+}
+
+aside div{
+margin: 35px auto auto auto;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+header{
+	height:60px;
+	width:77%;
+	position: relative;
+	border-bottom:1px solid rgb(20, 59, 117);
+	text-align: right;
+	margin: auto 0 auto auto;
+	font-family: fantasy;
+}
+
+header div{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header div a{
+	color: #000000;
+	text-decoration: none;
+}
+
+header div a:hover{
+	background-color: rgb(20, 59, 117);
+	/*background-color: #000000;*/
+	color:#FFFFFF;
+	border-right-color:#FFFFFF;
+}
+
+header div span{
+	padding: 0 10px;
+}
+
+.container{
+	position: absolute;
+    width: 77%;
+    right: 0;
+    height: auto;
+}
+
+.content{
+    font-family: sans-serif;
+    width:200px;
+    text-align: center;
+    padding:50px 0 0 0;
+    display: inline-block;
+}
+
+h1, h2{
+	margin: 0;
+}
+
+.tab_content{
+	display: none;
+}
+
+.profile{
+    width: 400px;
+    display: inline-block;
+    padding: 38px 0 0 0;
+    position: absolute;
+    right: 50px;
+
+}
+
+.profile img{
+	width:100%;
+	height: 100%
+}
+
+/*About Tab CSS*/
+#about{
+	display: none;
+}
+
+#academic{
+	margin:40px 0px;
+}
+
+#academic article{
+	width:24.6%;
+	display: inline-block;
+	text-align: center;
+}
+
+#academic article:nth-child(even){
+	background-color: rgb(20, 59, 117);
+	/*background-color: #000000;*/
+	color:#ffffff;
+}
+
+#academic article i{
+	font-size: 45px;
+}
+
+#academic article span{
+	display:block;
+}
+
+#experience ul{
+	list-style: none;
+	padding: 0;
+}
+
+
+/*SKills Tab CSS*/
+#skills_description{
+	display: none;
+	margin:40px 0;
+}
+
+#skills_description div{
+	height:120px;
+	width: 150px;
+	border:1px;
+	font-size: 45px;
+	text-align: center;
+	line-height: 120px;
+	font-family: fantasy;
+}
+
+#skills_description div:nth-child(-n+3){
+	display: inline-block;
+	width:30%;
+}
+
+#skills_description div:nth-child(n+4){
+	display: inline-block;
+	width:30%;
+}
+
+#skills_description div:nth-child(even){
+	background-color: rgb(20, 59, 117);
+	/*background-color:#000000;*/
+	color: #ffffff;
+}
+/*==================================*/
+
+
+
+
+
+#layout{
+	    height: auto;
+    width: 414px;
+    background: white;
+    position: relative;
+    right: 0;
+    left: 500px;
+}
+
+
+footer{
+	height:150px;
+	width:100%;
+	background-color: rgb(20, 59, 117);
+	/*background-color: #000000;*/
+	position: fixed;
+	bottom:0;
+	color: #ffffff;
+}
+
+footer > div{
+	display: inline-block;
+	width:auto;
+}
+
+footer div.tree{
+    position: relative;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    left: 12%;
+}
+
+footer div.cycle{
+    position: relative;
+    bottom: 50px;
+    height: 16px;
+    width: 26px;
+    left: 16%;
+}
+
+footer div.city{
+    position: relative;
+    bottom: 41px;
+    height: 50px;
+    width: 200px;
+    left: 64%;
+}
+
+footer > div img{
+	width:100%;
+	height: 100%;
+}
+
+.footer_content div.copyright{
+	position: absolute;
+    left: 10px;
+}
+
+.footer_content div.copyright span{
+	display: block;
+}
+
+.footer_content div.copyright div{
+	font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+
+.footer_content{
+	width:100%;
+}
+
+.footer_content > div{
+	width:50%;
+	display: inline-block;
+}
+
+.social{
+	display: inline-block;
+	position: relative;
+    left: 50%;
+}
+
+.social div{
+	display: inline-block;
+}
+
+.social div:last-child{
+	margin-left: 10%;
+}
+
+.social a{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+.social a:hover{
+	color:#ffffff;
+}
+
+.social i{
+	margin-right: 15px;
+    width: 10px;
+}
+
+#contact{
+	text-align: center;
+	margin-top: 150px;
+}
+
+#contact div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px;
+}
+
+#contact div > span{
+	display: block;
+}
+
+#contact div i{
+	font-size: 30px;
+}
+
+@media screen and (max-width: 435px){
+	.container{
+		width:100%;
+		height: 100%;
+		overflow: auto;
+	}
+
+	.content, .profile{
+		display:block;
+		margin:auto;
+	}
+
+	.profile {
+	    width: 100%;
+	    position: absolute;
+	    right:0;
+	}
+
+	aside {
+	    width: auto;
+	    border: 1px solid;
+	    border-radius: 0px;
+	    position: static;
+	    left: 30px;
+	    top: 30px;
+	    background-color: rgb(20, 59, 117);
+	    /*background-color: #000000;*/
+	    color: #ffffff;
+	    text-align: center;
+	}
+
+	header{
+		width:auto;
+		text-align: justify;
+		height:40px;
+	}
+
+	footer div.city{
+		left:50%;
+	}
+
+	#skills_description div:nth-child(-n+3), #skills_description div:nth-child(n+4){
+		width:32.6%;
+		font-size: 23px;
+	}
+
+	.footer_content{
+		width: 100%;
+	    position: absolute;
+	    left: 0;
+	    top: 15px;
+	}
+
+	.social div:last-child{
+		margin-left: 0;
+	}
+
+	#academic article {
+    	width: 100%;
+        margin: 0 !important;
+    	padding: 0;
+    	text-align: center;
+   	}
+
+   	#contact{
+   		margin-top:0;
+   	}
+
+   	#contact div{
+   		margin:20px 0px;
+   		display: block;
+   	}
+}

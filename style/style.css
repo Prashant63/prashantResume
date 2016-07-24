@@ -1,0 +1,436 @@
+@font-face {
+font-family: 'Bebas Neue Regular';
+font-style: normal;
+font-weight: normal;
+src: url('BebasNeue Regular.woff');
+}
+
+body{
+	margin:0;
+	background: url('../image/background.jpg') no-repeat;
+    font-size: 14px;
+    line-height: 1.231;
+}
+
+header{
+	background-color: #D4414B;
+    border-bottom: 5px solid #fff;
+    border-top: 5px solid #fff;
+    padding: 15px 0 15px 0;
+    color: #ffffff;
+    font-family: fantasy;
+    height: 125px;
+}
+
+header div{
+	display: inline-block;
+}
+
+#cvtitle{
+	font-size: 90px;
+	width: 110px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 115px;
+    color: #555;
+    text-shadow: 2px 2px 0px #fff;
+    margin-right: 20px;
+    color: #fff;
+    text-shadow: 0 0 2px #000000;
+    text-shadow: 1px 1px 0px #777;
+    text-shadow: 4px 4px 0px #eea1a7;
+    display: block;
+    behavior: url(PIE.htc);
+}
+
+#name{
+	margin-top: 20px;
+}
+
+#name h1{
+	text-align: center;
+    color: #fff;
+    color: #fff;
+    margin: 0;
+    font-size: 33px;
+    text-shadow: 3px 3px 0px #eea1a7;
+    font-weight: normal;
+}
+
+#contact{
+	margin: auto 0 auto 140px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding: 10px;
+    font-family: fantasy;
+    right:10px;
+    position: absolute;
+}
+
+#contact p > span:first-child{
+	width:60px;
+	display:inline-block;
+}
+
+#container{
+	width:940px;
+	margin:0 auto;
+	padding: 10px;
+}
+
+.tab_content{
+	width:155px;
+	height:155px;
+	display: inline-table;
+	border-radius: 50%;
+	border:5px solid rgb(245, 245, 245);
+	margin:0 5px;
+	text-align: center;
+    vertical-align: middle;
+    transition: all 0.7s ease-in-out;
+}
+
+.tab_content span{
+	display: inline-block;
+	font-size: 13px;
+	color: #ffffff;
+	font-family: fantasy;
+
+}
+
+.tab_content span:first-child{
+	margin-top: 52px;
+    font-size: 28px;
+}
+
+.tab_content:hover{
+	cursor: pointer;
+}
+
+#about{
+	background:url('../image/myImage.jpg') no-repeat; 
+	background-size: contain;
+}
+
+#about:hover{
+	border:5px solid #D4414B;
+}
+
+#work{
+	background-color: #EA7079; 
+}
+
+#work:hover{
+	border: 5px solid #D4414B;
+}
+
+#education{
+	background-color: #B7D472;
+}
+
+#education:hover{
+	border:5px solid #6C8A25;
+}
+
+#skills{
+	background-color: #5EC3B8;
+}
+
+#skills:hover{
+	border:5px solid #1F7F75;
+}
+
+#portfolio{
+	background-color: #DA8343;
+}
+
+#portfolio:hover{
+	border:5px solid #8D4916;
+}
+
+#slide_container{
+	padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    width: 940px;
+    min-height: 401px;
+    padding-bottom: 20px;
+}
+
+#firstTimeText{
+	text-align: center;
+    min-height: 401px;
+    font-size: 53px;
+}
+
+.section{
+	display:none;
+}
+
+.section .title{
+	margin:20px 0 0px 0;
+}
+
+.title h2{
+	    margin: 0;
+    padding-bottom: 2px;
+    font-size: 36px;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h2 span{
+	    color: #D4414B!important;
+    font-size: inherit!important;
+}
+
+.headerline{
+	height:3px;
+	background-color: #e2fffe;
+	border-style:none;
+	border-left: 10px solid #D4414B;
+    border-right: 10px solid #D4414B;
+}
+
+.headerline-thin{
+	height:2px;
+	background-color: #e2fffe;
+	border-style:none;
+	display:block;
+	border-left: 10px solid #D4414B;
+    border-right: 10px solid #D4414B;
+}
+
+#d-about-me .content .timeframe{
+	color:#D4414B;
+	text-align: center;
+}
+
+#introduction{
+	width:400px;
+	margin:auto;
+	text-align: justify;
+	color:#555;
+	padding-top: 100px;
+}
+
+.content .timeframe {
+    float: left;
+    padding-top: 14px;
+}
+
+.content .timeframe div{
+	display: inline-block;
+}
+
+.content .timeframe h4, h5{
+	margin:0;
+}
+
+.content .timeframe h4{
+	color:#D4414B;
+}
+
+.content .timeframe h5{
+	color:#555;
+	font-style: italic;
+}
+
+.content .timeframe p{
+	color:#555;
+}
+
+.content .timeframe .period {
+    float: left;
+    width: 144px;
+    /*margin: 7px 0;*/
+    color: #777;
+}
+
+.content .timeframe .achievements {
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    width: 776px;
+}
+
+.content .timeframe .achievements .paradescription{
+	margin:10px 0;
+}
+
+.skill-category {
+    width: 160px;
+    float: left;
+    color: #D4414B;
+    font-family: 'PT Sans Narrow', 'Ubuntu Condensed', sans-serif;
+}
+
+.skill-container {
+    margin-top: 20px;
+    width: 780x;
+    padding: 5px 0 20px 20px;
+    overflow: auto;
+    font-family: 'PT Sans Narrow', 'Ubuntu Condensed', sans-serif;
+    color:#555;
+    font-size: 13px;
+}
+
+.skill-container .skill-name {
+    float: left;
+    width: 110px;
+    font-weight: bold;
+}
+
+.skill-container .skill-strenght {
+    float: left;
+    width: 475px;
+    color: #fff;
+    padding: 3px 3px;
+    background-color: #ccc;
+    margin: 3px 10px;
+}
+
+.skill-container .skill-strenght .five {
+    width: 50%;
+}
+
+.skill-container .skill-strenght .six {
+    width: 60%;
+}
+
+.skill-container .skill-strenght .seven {
+    width: 70%;
+}
+
+.skill-container .skill-strenght .eight {
+    width: 80%;
+}
+
+.skill-container .skill-strenght .nine {
+    width: 90%;
+}
+
+.skill-container .skill-strenght .ten {
+    width: 100%;
+}
+
+.skill-container .skill-strenght .skill {
+    background-color: #D4414B;
+    height: 10px;
+}
+
+
+.skill-container .skill-score {
+    float: right;
+    width: 80px;
+    padding: 3px 3px;
+    margin: 0px 10px;
+    text-align: right;
+}
+
+.img-porfolio {
+    width: 162px;
+    height: 162px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-top: 5px solid #D4414B;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    behavior: url(PIE.htc);
+}
+
+.img-porfolio a{
+	text-decoration: none;
+}
+
+.img-porfolio img{
+	width:100%;
+	height:100%;
+}
+
+.img-porfolio span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 162px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    color: #777;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
+    text-shadow: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    height: 0;
+    padding-top: 0;
+}
+
+div.img-porfolio:hover span{
+	height:90px;
+	padding-top: 72px;
+	cursor:pointer;
+}
+
+footer{
+    bottom: 0;
+    height: 60px;
+    background-color: #444;
+    border-top: 5px solid #2f2f2f;
+    width: 100%;
+    display: block;
+    vertical-align: baseline;
+}
+
+footer div{
+	display: inline-block;
+}
+
+footer .footer_content{
+	width: 96%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+footer .copyright{
+	color:#eee;
+}
+
+footer .social{
+	position: absolute;
+	right:50px;
+	top:13px;
+}
+
+footer .social a{
+	text-decoration: none;
+	color:#eee;
+}
+
+footer .social span{
+	background-color: #333;
+    display: inline-block;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+}
