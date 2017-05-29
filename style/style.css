@@ -59,17 +59,19 @@ header div{
 }
 
 #contact{
-	margin: auto 0 auto 140px;
+	margin: auto 0 auto 0px;
     border-left: 2px solid;
     border-right: 2px solid;
     padding: 10px;
     font-family: fantasy;
     right:10px;
     position: absolute;
+    font-size: 12px;
+    width:450px;
 }
 
 #contact p > span:first-child{
-	width:60px;
+	width:100px;
 	display:inline-block;
 }
 
@@ -109,8 +111,8 @@ header div{
 }
 
 #about{
-	background:url('../image/myImage.jpg') no-repeat; 
-	background-size: contain;
+	background:url('../image/myImg.jpg') no-repeat; 
+	background-size: cover;
 }
 
 #about:hover{
