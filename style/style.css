@@ -8,7 +8,7 @@ src: url('BebasNeue Regular.woff');
 body{
 	margin:0;
 	background: url('../image/background.jpg') no-repeat;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.231;
 }
 
@@ -289,6 +289,10 @@ h2 span{
     padding: 3px 3px;
     background-color: #ccc;
     margin: 3px 10px;
+}
+
+.skill-container .skill-strenght .three {
+    width: 30%;
 }
 
 .skill-container .skill-strenght .five {
